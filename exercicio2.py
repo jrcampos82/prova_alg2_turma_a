@@ -1,5 +1,5 @@
 """
-Exercício 02 – Analisador de Argumentos Numéricos
+Exercício 02 – Analisador de Argumentos Numéricos  (tempo aproximado 15 a 20 min)
 
 Objetivo:
 Crie uma função chamada `analisar_argumentos` que receba um número arbitrário de argumentos utilizando *args e analise quais deles são números (int ou float). A função deve retornar um dicionário com as seguintes chaves:

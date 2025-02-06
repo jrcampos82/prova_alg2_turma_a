@@ -1,5 +1,5 @@
 """
-Exercício 04 – Corrigir e Acrescentar Linhas de Código para Processamento de Números
+Exercício 04 – Corrigir e Acrescentar Linhas de Código para Processamento de Números  (tempo aproximado 15 a 20 min)
 
 Objetivo:
 O código a seguir tem a intenção de:

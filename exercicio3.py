@@ -1,5 +1,5 @@
 """
-Exercício 03 – Profundidade Máxima de Listas Aninhadas (Recursividade)
+Exercício 03 – Profundidade Máxima de Listas Aninhadas (Recursividade)  (tempo aproximado 20 a 30 min)
 
 Objetivo:
 Crie uma função recursiva chamada `max_depth` que receba uma lista que pode conter outras listas aninhadas e retorne a profundidade máxima de aninhamento.

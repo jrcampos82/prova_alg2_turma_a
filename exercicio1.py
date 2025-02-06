@@ -1,5 +1,5 @@
 """
-Exercício 01 – Análise de Vendas
+Exercício 01 – Análise de Vendas (tempo aproximado 10 a 13 min)
 
 Objetivo:
 Você recebeu um dicionário representando as vendas mensais de uma loja. Cada chave é o nome de um produto e o valor é uma lista de inteiros representando as vendas mensais.
