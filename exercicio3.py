@@ -1,24 +1,23 @@
 """
-Exercício 03 – Profundidade Máxima de Listas Aninhadas (Recursividade)  (tempo aproximado 20 a 30 min)
+Exercício 03 – Profundidade Máxima de Listas Aninhadas (Recursividade) - Nível Fácil
 
 Objetivo:
-Crie uma função recursiva chamada `max_depth` que receba uma lista que pode conter outras listas aninhadas e retorne a profundidade máxima de aninhamento.
+Crie uma função recursiva chamada `max_depth` que receba uma lista e retorne a profundidade máxima de aninhamento de sublistas.
 
 Requisitos:
-  - Se a lista não contiver nenhuma outra lista, a profundidade deve ser 1.
-  - Se a lista contiver outras listas, a função deve analisar cada uma delas recursivamente e determinar a profundidade máxima.
-  - Utilize recursividade para explorar as listas aninhadas.
+1. Se a lista não contiver nenhuma sublista, retorne 1.
+2. Se houver sublistas, a profundidade da lista será 1 + a maior profundidade encontrada entre as sublistas.
+3. Considere que apenas elementos do tipo lista devem ser tratados como níveis de aninhamento.
 
 Exemplos:
-    max_depth([1, 2, 3])               # Deve retornar 1.
-    max_depth([1, [2, 3], 4])           # Deve retornar 2.
-    max_depth([1, [2, [3, 4]], 5])      # Deve retornar 3.
+    - max_depth([1, 2, 3]) deve retornar 1.
+    - max_depth([1, [2, 3], 4]) deve retornar 2.
+    - max_depth([1, [2, [3, 4]], 5]) deve retornar 3.
 
-Exemplo de uso:
-    lista_aninhada = [1, [2, [3, 4], 5], 6]
-    profundidade = max_depth(lista_aninhada)
-    print("Profundidade máxima:", profundidade)
-    
-Dica: Percorra cada elemento da lista e verifique se ele é do tipo list. Se for, chame recursivamente a função e compare as profundidades.
+Dicas:
+    - Utilize a função `isinstance(x, list)` para verificar se um elemento é uma lista.
+    - Percorra cada elemento da lista e, se for uma sublista, chame recursivamente a função `max_depth`.
+
+Escreva sua solução abaixo.
 """
-# Sua solução aqui
+# Sua solução aqui.
