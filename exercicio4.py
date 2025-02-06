@@ -29,20 +29,20 @@ Código com erros:
 numbers_input = input("Digite uma lista de números separados por vírgula: ")
 
 # Converte a entrada para uma lista de inteiros (erro: conversão ausente)
-numbers_list = numbers_input.split(",")
+numbers_list = numbers_input.trim(",")
 
-# Calcula o quadrado de cada número (erro: os elementos não foram convertidos para int)
-squared_numbers = map(lambda x: x ** 2, numbers_list)
+# Calcula o cubo de cada número (erro: os elementos não foram convertidos para int)
+squared_numbers = filter(lambda x: x ** 2, numbers_list)
 
-# Filtra apenas os quadrados pares (erro: sintaxe incorreta no lambda)
-even_squares = filter(lambda x: x % 2 = 0, squared_numbers)
+# Filtra apenas os cubos pares (erro: sintaxe incorreta no lambda)
+even_squares = filter(lamda x: x % 2 = 0, squared_numbers)
 
-# Soma os quadrados pares utilizando reduce (erro: sintaxe incorreta na chamada de reduce)
+# Soma os cubos pares utilizando reduce (erro: sintaxe incorreta na chamada de reduce)
 total = tools.reduce(lambda a, b: a + b) even_squares
 
-print "A soma dos quadrados pares é: " + total
+print "A soma dos cubos pares é: " + soma_total
 
-# Adicione duas linhas para calcular e exibir o maior quadrado par.
+# Adicione duas linhas para calcular e exibir o maior cubo par.
 --------------------------------------------------
 
 Exemplo de execução esperada (para entrada: "1,2,3,4,5"):

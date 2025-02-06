@@ -10,13 +10,17 @@ Este repositório contém uma coleção de exercícios desenvolvidos para testar
 
 ## Conteúdo dos Exercícios
 
-- **exercicio1.py (1 pontos)**: 
-- **exercicio2.py (2 pontos)**: 
-- **exercicio3.py (3 pontos)**: 
-- **exercicio4.py (4 pontos)**: 
+- **exercicio1.py (1 pontos)**: Análise de Vendas
+- **exercicio2.py (2 pontos)**: Analisador de Argumentos Numéricos
+- **exercicio3.py (4 pontos)**: Profundidade Máxima de Listas Aninhadas (Recursividade)
+- **exercicio4.py (3 pontos)**: Corrigir e Acrescentar Linhas de Código para Processamento de Números
 - **exercicioX.py**: Sistema simples de cadastro de funcionários com geração de relatórios. **(Não implementado)**
 - **exercicioY.py**: Busca recursiva em estruturas aninhadas em dicionários. **(Não implementado)**
 - **exercicioZ.py**: Depuração de código que utiliza `map`, `filter` e `reduce` para corrigir erros e fazer o código rodar. **(Não implementado)**
+
+## Tempo Total para resolução dos exercícios
+- **Tempo estimado**: 1.5 horas
+
 
 ## Entrega dos exercícios via moodle com link do github
 
