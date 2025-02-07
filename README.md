@@ -19,7 +19,7 @@ Este repositório contém uma coleção de exercícios desenvolvidos para testar
 - **exercicioZ.py**: Depuração de código que utiliza `map`, `filter` e `reduce` para corrigir erros e fazer o código rodar. **(Não implementado)**
 
 ## Tempo Total para resolução dos exercícios
-- **Tempo estimado**: 1.5 horas
+- **Tempo estimado**: 1.
 
 
 ## Entrega dos exercícios via moodle com link do github
